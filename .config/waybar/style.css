@@ -1,0 +1,98 @@
+/* * ДЛЯ ИНТЕГРАЦИИ С PYWAL:
+ * Раскомментируй строку ниже, чтобы Waybar брал цвета из сгенерированного pywal файла.
+ * Убедись, что pywal настроен на генерацию шаблона для waybar (обычно ~/.cache/wal/colors-waybar.css)
+ */
+@import url("../../.cache/matugen/waybar.css");
+
+/* Заглушки цветов (если pywal отключен). Удали их, если используешь @import выше
+@define-color background #1e1e2e;
+@define-color foreground #cdd6f4;
+@define-color color1     #f38ba8;
+@define-color color2     #a6e3a1;
+@define-color color3     #f9e2af;
+@define-color color4     #89b4fa;
+*/
+* {
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0; /* Делаем панель абсолютно плоской и прямоугольной */
+    min-height: 0;
+}
+
+window#waybar {
+    /* background-color: @background; */
+    color: @foreground;
+    /* Если хочешь легкую полупрозрачность для плоской панели, раскомментируй: */
+    background-color: @background;
+}
+
+/* Настройки отступов для модулей */
+#workspaces,
+#window,
+#clock,
+#custom-weather,
+#memory,
+#cpu,
+#pulseaudio,
+/* #custom-ddc_brightness, */
+#battery,
+#tray {
+    padding: 0 12px;
+    margin: 0;
+}
+
+/* --- Стилизация конкретных модулей --- */
+
+#workspaces button {
+    color: @foreground;
+    background: transparent;
+    padding: 0 4px;
+    box-shadow: inset 0 -2px transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#workspaces button.active {
+    color: @color4;
+    box-shadow: inset 0 -2px @color4; /* Нижняя подчеркивающая линия для активного стола */
+}
+
+#clock {
+    color: @color3;
+}
+
+#custom-weather {
+    color: @foreground;
+}
+
+#memory {	
+    color: @color2;
+}
+
+#cpu {
+    color: @color1;
+}
+
+#pulseaudio {
+    color: @color4;
+}
+
+#pulseaudio.muted {
+    color: #7f849c;
+}
+
+#battery {
+    color: @color3;
+}
+/* #custom-ddc_brightness {
+    color: @color3;
+}
+*/
+#tray {
+    padding-right: 8px;
+}

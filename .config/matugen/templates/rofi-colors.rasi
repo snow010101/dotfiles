@@ -1,0 +1,69 @@
+* {
+    /* === Базовые цвета Matugen === */
+    red:                         {{colors.error.default.hex}};
+    blue:                        {{colors.secondary.default.hex}};
+    lightfg:                     {{colors.primary.default.hex}};
+    lightbg:                     {{colors.surface_variant.default.hex}};
+    background:                  {{colors.surface.default.hex}};
+    foreground:                  {{colors.on_surface.default.hex}};
+
+    /* === Контрастные цвета для выделения (исправление под Material You) === */
+    selected-normal-foreground:  {{colors.on_primary.default.hex}};
+    selected-active-foreground:  {{colors.on_secondary.default.hex}};
+    selected-urgent-foreground:  {{colors.on_error.default.hex}};
+
+    /* === Стандартные привязки Rofi === */
+    separatorcolor:              var(foreground);
+    urgent-foreground:           var(red);
+    alternate-urgent-background: var(lightbg);
+    background-color:            transparent;
+    border-color:                var(foreground);
+    normal-background:           var(background);
+    selected-urgent-background:  var(red);
+    alternate-active-background: var(lightbg);
+    spacing:                     2;
+    alternate-normal-foreground: var(foreground);
+    urgent-background:           var(background);
+    active-foreground:           var(blue);
+    selected-active-background:  var(blue);
+    active-background:           var(background);
+    selected-normal-background:  var(lightfg);
+    alternate-normal-background: var(lightbg);
+    normal-foreground:           var(foreground);
+    alternate-urgent-foreground: var(red);
+    alternate-active-foreground: var(blue);
+}* {
+    /* === Базовые цвета Matugen === */
+    red:                         {{colors.error.default.hex}};
+    blue:                        {{colors.secondary.default.hex}};
+    lightfg:                     {{colors.primary.default.hex}};
+    lightbg:                     {{colors.surface_variant.default.hex}};
+    background:                  {{colors.surface.default.hex}};
+    foreground:                  {{colors.on_surface.default.hex}};
+
+    /* === Контрастные цвета для выделения (исправление под Material You) === */
+    selected-normal-foreground:  {{colors.on_primary.default.hex}};
+    selected-active-foreground:  {{colors.on_secondary.default.hex}};
+    selected-urgent-foreground:  {{colors.on_error.default.hex}};
+
+    /* === Стандартные привязки Rofi === */
+    separatorcolor:              var(foreground);
+    urgent-foreground:           var(red);
+    alternate-urgent-background: var(lightbg);
+    background-color:            transparent;
+    border-color:                var(foreground);
+    normal-background:           var(background);
+    selected-urgent-background:  var(red);
+    alternate-active-background: var(lightbg);
+    spacing:                     2;
+    alternate-normal-foreground: var(foreground);
+    urgent-background:           var(background);
+    active-foreground:           var(blue);
+    selected-active-background:  var(blue);
+    active-background:           var(background);
+    selected-normal-background:  var(lightfg);
+    alternate-normal-background: var(lightbg);
+    normal-foreground:           var(foreground);
+    alternate-urgent-foreground: var(red);
+    alternate-active-foreground: var(blue);
+}

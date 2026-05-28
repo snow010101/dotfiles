@@ -1,0 +1,13 @@
+background_opacity 0.8
+background_blur 32
+font_family      JetBrains Mono
+bold_font        JetBrains Mono Bold
+italic_font      JetBrains Mono Italic
+bold_italic_font JetBrains Mono Bold Italic
+
+
+# BEGIN_KITTY_THEME
+# Matugen
+include current-theme.conf
+background #1e1e30
+# END_KITTY_THEME

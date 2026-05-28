@@ -1,0 +1,69 @@
+* {
+    /* === Базовые цвета Matugen === */
+    red:                         #ffb4ab;
+    blue:                        #c1caab;
+    lightfg:                     #b5d086;
+    lightbg:                     #45483d;
+    background:                  #12140e;
+    foreground:                  #e3e3d8;
+
+    /* === Контрастные цвета для выделения (исправление под Material You) === */
+    selected-normal-foreground:  #233600;
+    selected-active-foreground:  #2b331d;
+    selected-urgent-foreground:  #690005;
+
+    /* === Стандартные привязки Rofi === */
+    separatorcolor:              var(foreground);
+    urgent-foreground:           var(red);
+    alternate-urgent-background: var(lightbg);
+    background-color:            transparent;
+    border-color:                var(foreground);
+    normal-background:           var(background);
+    selected-urgent-background:  var(red);
+    alternate-active-background: var(lightbg);
+    spacing:                     2;
+    alternate-normal-foreground: var(foreground);
+    urgent-background:           var(background);
+    active-foreground:           var(blue);
+    selected-active-background:  var(blue);
+    active-background:           var(background);
+    selected-normal-background:  var(lightfg);
+    alternate-normal-background: var(lightbg);
+    normal-foreground:           var(foreground);
+    alternate-urgent-foreground: var(red);
+    alternate-active-foreground: var(blue);
+}* {
+    /* === Базовые цвета Matugen === */
+    red:                         #ffb4ab;
+    blue:                        #c1caab;
+    lightfg:                     #b5d086;
+    lightbg:                     #45483d;
+    background:                  #12140e;
+    foreground:                  #e3e3d8;
+
+    /* === Контрастные цвета для выделения (исправление под Material You) === */
+    selected-normal-foreground:  #233600;
+    selected-active-foreground:  #2b331d;
+    selected-urgent-foreground:  #690005;
+
+    /* === Стандартные привязки Rofi === */
+    separatorcolor:              var(foreground);
+    urgent-foreground:           var(red);
+    alternate-urgent-background: var(lightbg);
+    background-color:            transparent;
+    border-color:                var(foreground);
+    normal-background:           var(background);
+    selected-urgent-background:  var(red);
+    alternate-active-background: var(lightbg);
+    spacing:                     2;
+    alternate-normal-foreground: var(foreground);
+    urgent-background:           var(background);
+    active-foreground:           var(blue);
+    selected-active-background:  var(blue);
+    active-background:           var(background);
+    selected-normal-background:  var(lightfg);
+    alternate-normal-background: var(lightbg);
+    normal-foreground:           var(foreground);
+    alternate-urgent-foreground: var(red);
+    alternate-active-foreground: var(blue);
+}
